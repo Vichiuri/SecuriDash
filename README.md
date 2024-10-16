@@ -1,3 +1,34 @@
+# SecuriDash
+
+SecuriDash is a decentralized security dashboard for auditing and monitoring Web3 protocols. This project simulates a booking platform for security reviews with features such as Web3 authentication, protocol health overview, and a responsive, secure UI.
+
+## Features
+- Web3 Login using MetaMask/WalletConnect.
+- Schedule security reviews with real-time availability.
+- Real-time protocol health monitoring via Etherscan API.
+- Dark/Light mode toggle.
+- Comprehensive form validation and state management.
+- Type-safe, production-level TypeScript code.
+- Unit and integration tests with Jest & React Testing Library.
+- CI/CD with GitHub Actions.
+
+## Tech Stack
+- **React** & **TypeScript**
+- **Styled Components** for CSS
+- **Redux** for state management
+- **Jest** for testing
+- **Ethers.js** for interacting with the blockchain
+- **GitHub Actions** for CI/CD
+
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vichiuri/SecuriDash.git
+   cd SecuriDash
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
