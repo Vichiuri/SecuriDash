@@ -1,5 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { useDispatch } from 'react-redux';
+import { addBooking } from '../redux/bookingSlice';
 import styled from 'styled-components';
 
 interface FormValues {
@@ -10,10 +12,11 @@ interface FormValues {
 }
 
 const BookingForm: React.FC = () => {
+  const dispatch = useDispatch();
   const { register, handleSubmit, formState: { errors } } = useForm<FormValues>();
-  
+
   const onSubmit = (data: FormValues) => {
-    // Simulate form submission
+    dispatch(addBooking(data));
     alert(`Booking for ${data.protocolName} submitted successfully!`);
   };
 
@@ -55,6 +58,7 @@ const BookingForm: React.FC = () => {
 
 export default BookingForm;
 
+
 // Styled Components
 const FormContainer = styled.div`
   margin-top: 2rem;
@@ -94,3 +98,12 @@ const ErrorMessage = styled.p`
   color: red;
   font-size: 0.8rem;
 `;
+
+
+
+
+
+
+
+
+
