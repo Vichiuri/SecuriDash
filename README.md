@@ -6,7 +6,6 @@ SecuriDash is a decentralized security dashboard for auditing and monitoring Web
 - Web3 Login using MetaMask/WalletConnect.
 - Schedule security reviews with real-time availability.
 - Real-time protocol health monitoring via Etherscan API.
-- Dark/Light mode toggle.
 - Comprehensive form validation and state management.
 - Type-safe, production-level TypeScript code.
 - Unit and integration tests with Jest & React Testing Library.
