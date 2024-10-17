@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import '@testing-library/jest-dom';  // <- Import jest-dom for DOM matchers
+import '@testing-library/jest-dom';  // <- Import jest-dom
 import Home from '../pages/Home';
 
 
